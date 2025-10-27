@@ -40,6 +40,15 @@
             position: absolute;
             top: 50%;
             border-radius: 15px;
+
+            h1{
+                margin-top: 0;
+            }
+            
+            h4{
+                margin-bottom: 0;
+                color: black;
+            }
                 
             p{
                 color: var.$couleur-tertiaire;

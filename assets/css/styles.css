@@ -123,6 +123,13 @@ img {
   top: 50%;
   border-radius: 15px;
 }
+#banner .banner .banner-content h1 {
+  margin-top: 0;
+}
+#banner .banner .banner-content h4 {
+  margin-bottom: 0;
+  color: black;
+}
 #banner .banner .banner-content p {
   color: black;
   padding-bottom: 20px;
