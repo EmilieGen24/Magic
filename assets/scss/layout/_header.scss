@@ -9,6 +9,7 @@
     .navbar-logo{
         width: 20%;
     }
+
     ul{
         display: flex;
         gap: 20px;
@@ -16,5 +17,14 @@
         a{
             color: var.$couleur-principale;
         }
+    }
+
+    .menu-buger{
+
+        .img{
+           display: none; 
+           width: 20%;
+        }
+        
     }
 }
