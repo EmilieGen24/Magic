@@ -3,7 +3,6 @@
 
 // section banner
 #banner{
-
     background-image: url(../../assets/img/banner.webp);
     background-position: center;
     background-size: cover;
@@ -48,4 +47,64 @@
             }
         }
     }  
+}
+
+// section news
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .card-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+
+        .card{
+            border: 1px solid white;
+            border-radius: 10px;
+            width: 30%;
+            height: 40vh;
+            background-color: rgb(19, 18, 18);
+
+            h3{
+                font-size: 1rem;
+            }
+            p{
+                font-size: 0.8rem;
+            }
+            img{
+                max-height: 15vh;
+                width: 100%;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            a{
+                color: white;
+                border: 1px solid rgb(75, 73, 73);
+                border-radius: 30px;
+                padding: 5px 10px;
+                margin-top: 20px;
+                margin-right: 10px;
+                display: inline-block;
+            }
+            .news{
+                padding-left: 20px;
+            }
+            span{
+                text-transform: uppercase;
+                font-size: 0.7rem;
+                font-weight: 700;
+                position: absolute;
+                color: var.$couleur-principale;
+                background-color: var.$couleur-secondaire;
+                border-radius: 20px;
+                border: 1px solid rgb(241, 107, 4);
+                padding: 5px 10px;
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+        }
+    }
 }

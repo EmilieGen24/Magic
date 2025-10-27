@@ -132,6 +132,62 @@ img {
   padding-bottom: 20px;
 }
 
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-container .card-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card-container .card-content .card {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 30%;
+  height: 40vh;
+  background-color: rgb(19, 18, 18);
+}
+.card-container .card-content .card h3 {
+  font-size: 1rem;
+}
+.card-container .card-content .card p {
+  font-size: 0.8rem;
+}
+.card-container .card-content .card img {
+  max-height: 15vh;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-container .card-content .card a {
+  color: white;
+  border: 1px solid rgb(75, 73, 73);
+  border-radius: 30px;
+  padding: 5px 10px;
+  margin-top: 20px;
+  margin-right: 10px;
+  display: inline-block;
+}
+.card-container .card-content .card .news {
+  padding-left: 20px;
+}
+.card-container .card-content .card span {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 700;
+  position: absolute;
+  color: white;
+  background-color: rgb(229, 66, 11);
+  border-radius: 20px;
+  border: 1px solid rgb(241, 107, 4);
+  padding: 5px 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
