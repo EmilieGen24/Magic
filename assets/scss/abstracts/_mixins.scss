@@ -1,0 +1,20 @@
+@use"variables" as var;
+
+@mixin button($bg-color, $text-color){
+    padding: 10px 20px;
+    color: $text-color;
+    background-color: $bg-color;
+    border-radius: 10px;
+}
+
+.btn1{
+    @include button (var.$couleur-secondaire, var.$couleur-principale)
+}
+
+.btn2{
+    @include button (var.$couleur-principale, var.$couleur-tertiaire)
+}
+
+.btn3{
+    @include button(var.$couleur-tertiaire, var.$couleur-secondaire)
+}

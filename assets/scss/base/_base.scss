@@ -1,14 +1,30 @@
+@use"../abstracts/variables" as var;
+
 body{
-    font-family: "Roboto Régular";
+    font-family: var.$police-principale;
+    background-color: var.$couleur-tertiaire;
 }
 
-h1, h2, h3{
+h1{
     text-transform: uppercase;
+    font-size: 2rem;
+    color: var.$couleur-secondaire;
+    text-align: center;
+}
+h2{
+    text-transform: uppercase;
+    color: var.$couleur-secondaire;
+    text-align: center;
+}
 
+h3{
+    text-transform: uppercase;
+    color: var.$couleur-principale;
 }
 
 p{
     font-size: 1rem;
+    color: var.$couleur-principale;
 }
 
 span{

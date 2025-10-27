@@ -1,14 +1,30 @@
 @charset "UTF-8";
 body {
-  font-family: "Roboto Régular";
+  font-family: "Roboto Régular", sans-serif;
+  background-color: black;
 }
 
-h1, h2, h3 {
+h1 {
   text-transform: uppercase;
+  font-size: 2rem;
+  color: red;
+  text-align: center;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: red;
+  text-align: center;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: white;
 }
 
 p {
   font-size: 1rem;
+  color: white;
 }
 
 span {
@@ -40,6 +56,27 @@ img {
 
 * {
   box-sizing: border-box;
+}
+
+.btn1 {
+  padding: 10px 20px;
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.btn2 {
+  padding: 10px 20px;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.btn3 {
+  padding: 10px 20px;
+  color: red;
+  background-color: black;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
