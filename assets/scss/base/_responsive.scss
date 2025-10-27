@@ -3,11 +3,84 @@
 
 // Tablette
 @media screen and (max-width : 780px) {
+
+    .navbar ul{
+        display: none;
+    }
+    .navbar .menu-burger{
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 5px;
+        img{
+            width: 10%;
+        }
+    }
+
+    #banner .banner .banner-content {
+        width: 60%;
+    }
+
+    .card-container .card-content .card {
+        width: 40%;
+    }
+
+    #mobile .mobile-container {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 30px;
+
+        .mobile-img img{
+            width: 60%;
+        }
+    } 
     
+    .footer{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
 }
 
 
 // Mobile
 @media screen and (max-width : 560px) {
-    
+    #banner .banner-promo .promo {
+        p{
+            font-size: 0.9rem;
+        }
+        .btn2{
+            font-size: 0.9rem;
+            width: 20%;
+            padding: 10px 10px;
+        }
+    }
+    #banner .banner .banner-content {
+        width: 70%;
+        p{
+            font-size: 0.9rem;
+        }
+    }
+    .card-container .card-content .card {
+        width: 60%;
+    }
+    #produit .produit-container {
+        flex-direction: column;
+        height: 100%;
+        gap: 20px;
+        .produit{
+            top: 5%;
+            
+            .h3{
+                text-align: center;
+            }
+            img{
+                width: 50%;
+                position: relative;
+                left: 20%;
+            }
+        }
+    }
+    .footer{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
 }

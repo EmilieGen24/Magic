@@ -88,9 +88,8 @@ img {
 .navbar ul a {
   color: white;
 }
-.navbar .menu-buger .img {
+.navbar .menu-burger {
   display: none;
-  width: 20%;
 }
 
 #banner {
@@ -316,6 +315,77 @@ img {
   border-radius: 10px;
   display: inline-block;
   margin-left: 10px;
+}
+
+@media screen and (max-width: 780px) {
+  .navbar ul {
+    display: none;
+  }
+  .navbar .menu-burger {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+  }
+  .navbar .menu-burger img {
+    width: 10%;
+  }
+  #banner .banner .banner-content {
+    width: 60%;
+  }
+  .card-container .card-content .card {
+    width: 40%;
+  }
+  #mobile .mobile-container {
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  #mobile .mobile-container .mobile-img img {
+    width: 60%;
+  }
+  .footer {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 560px) {
+  #banner .banner-promo .promo p {
+    font-size: 0.9rem;
+  }
+  #banner .banner-promo .promo .btn2 {
+    font-size: 0.9rem;
+    width: 20%;
+    padding: 10px 10px;
+  }
+  #banner .banner .banner-content {
+    width: 70%;
+  }
+  #banner .banner .banner-content p {
+    font-size: 0.9rem;
+  }
+  .card-container .card-content .card {
+    width: 60%;
+  }
+  #produit .produit-container {
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+  }
+  #produit .produit-container .produit {
+    top: 5%;
+  }
+  #produit .produit-container .produit .h3 {
+    text-align: center;
+  }
+  #produit .produit-container .produit img {
+    width: 50%;
+    position: relative;
+    left: 20%;
+  }
+  .footer {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
