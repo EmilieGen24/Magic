@@ -54,6 +54,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2%;
 
     .card-content{
         display: flex;
@@ -104,6 +105,59 @@
                 padding: 5px 10px;
                 margin-top: 20px;
                 margin-left: 20px;
+            }
+        }
+    }
+}
+
+// section mobile
+#mobile{
+    background-image: url(../../assets/img/Bg-Gathering.webp);
+    background-position: center;
+    background-size: cover;
+    margin-top: 5%;
+
+    .mobile-container{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        .mobile-content{
+            display: flex;
+            flex-direction: column;
+
+            h4{
+                margin-bottom: 0;
+            }
+            h2{
+                margin-top: 5px;
+                margin-bottom: 10px;
+            }
+            p{
+                color: rgb(107, 104, 104);
+            }
+            ul{
+                padding-left: 0;
+
+                li{
+                    margin-bottom: 40px;
+                    
+                    a{
+                    color: var.$couleur-principale;
+                    border: 1px solid rgb(107, 104, 104);
+                    border-radius: 10px;
+                    padding: 10px 10px;
+                    background-color: rgb(36, 35, 35);            
+                    }
+                }
+            }
+        }
+
+        .mobile-img{
+            
+            img{
+                width: 80%;
+                margin-left: 30px;
             }
         }
     }

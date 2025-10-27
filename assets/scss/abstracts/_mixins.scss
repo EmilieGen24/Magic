@@ -14,7 +14,3 @@
 .btn2{
     @include button (var.$couleur-principale, var.$couleur-tertiaire)
 }
-
-.btn3{
-    @include button(var.$couleur-tertiaire, var.$couleur-secondaire)
-}

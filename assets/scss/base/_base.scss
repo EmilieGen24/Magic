@@ -16,12 +16,15 @@ h1{
 h2{
     text-transform: uppercase;
     color: var.$couleur-secondaire;
-    text-align: center;
-    padding-top: 5%;
+    font-size: 2rem;
 }
 
 h3{
     text-transform: uppercase;
+    color: var.$couleur-principale;
+}
+
+h4{
     color: var.$couleur-principale;
 }
 

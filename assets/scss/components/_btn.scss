@@ -1,0 +1,10 @@
+@use"../abstracts/variables" as var;
+
+.btn3{
+    padding: 10px 20px;
+    color: var.$couleur-secondaire;
+    border: 1px solid var.$couleur-secondaire;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}
